@@ -1,0 +1,30 @@
+{
+	"name": "sunartest",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "tsup",
+		"start": "tsx src/index.ts",
+		"dev": "tsx watch src/index.ts",
+		"typesafe-i18n": "typesafe-i18n"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"better-sqlite3": "^11.1.1",
+		"discord.js": "^14.15.3",
+		"dotenv": "^16.4.5",
+		"quick.db": "^9.1.7",
+		"sunar": "^0.3.2",
+		"typesafe-i18n": "^5.26.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@total-typescript/tsconfig": "^1.0.4",
+		"tsup": "^8.1.0",
+		"tsx": "^4.15.7",
+		"typescript": "^5.5.2"
+	}
+}
